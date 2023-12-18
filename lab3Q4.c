@@ -11,12 +11,11 @@ int found = 0;
 
 for (int i=0; i<n; i++) {
 if (*ptr == target) {
-
 found = 1;
 break; }
 ptr ++; }
+  
 if (found){
-
 printf("%d is found in the array \n",target);
 } else { printf ("%d is not found in the array \n", target);
 }
